@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victor's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/96bb7ddd1e.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  </head>
+<body>
+<div id="header">
+<div class="container">
+
+<nav>
+<img src="images/victorl.png" class="logo"> 
+<ul id="sidemenu">
+    <li><a href="#header">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+</ul>  
+<i class="fa-solid fa-bars" onclick="openmenu()"></i>
+</nav>
+<div class="header-text">
+    <h4>Howdy!</h4>
+    <br>
+    <h3>I'm <span>Victor</span> Wakhungila</h3>
+    <br>
+    <p>Cybersecurity Specialist & Web Developer</p>
+</div>
+</div>
+
+  </div> 
+<div id="about">
+<div class="container">
+<div class="row">
+<div class="about-col-1">
+<img src="images/Vic10.png" alt="Victor-pic">
+</div>
+<div class="about-col-2">
+<h1 class="sub-title">About Me</h1>
+<p>Wakhungila is a Self disciplined and a commited to work Infantry person passionate about team work in order to accomplish
+  desired objectives. Exhibitits a burning interest for design and cybersecurity on a professional level with a
+  genuine intention of using his skills to contribute to national building.</p>
+<div class="tab-titles">
+
+<p class="tab-links" onclick="opentab('experience')">Experience</p>
+<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+<p class="tab-links" onclick="opentab('education')">Education</p>
+</div>
+<div class="tab-contents " id="experience">
+ <ul>
+    <li><span>2020-current</span><br>Infantry personell at Kenya Defence Forces<br>-Constructed and camouflaged infantry positions and equipment to prevent detection.<br>-Led fire team during infantry dismounted battle drills and situational training exercises.<br>-Patrolled designated coverage areas and evaluated terrain for defensive use.<br>-Analyzed terrain to identify advantageous positions for operations.<br>-Was a platoon member maintaining peace on the Kenya-South Sudan border and Baringo county</li>
+ 
+  </ul>
+</div>
+<div class="tab-contents active-tab" id="skills">
+  <ul>
+    <li><span>Cyberthreat analysis</span><br>Detecting possible loopholes that may lead to cyber attacks.</li>
+    <li><span>Infantry skills</span><br>Working with communication equipments and weapon systems.</li>
+    <li><span>Web and Graphics Design</span><br>Designing Websites,logos,banners,posters</li>
+    <li><span>Rugby skills</span><br></li> 
+    </ul>
+ </div>
+ <div class="tab-contents" id="education">
+  <ul>
+     <li><span>2022 - Curent</span><br>Diploma Cyber Security and Ethical Hacking;Institute Of Software Technologies Nairobi</li>
+     <li><span>2020 september - 2021 august</span><br>Millitary Academy</li>
+     <li><span>2019 - 2020 </span><br>Front end web design</li>
+   </ul>
+ </div>
+</div>
+</div>
+</div> 
+</div>
+   
+<div id="services">
+<div class="container">
+  <h1 class="sub-title">My Services</h1>
+  <div class="services-list">
+    <div>
+      <i class="fa-solid fa-chart-simple"></i>
+      <h2>Cyberthreat Analysis</h2>
+      <p>I match information about vulnerabilities in an organization's network against real-world cyberthreats.</p>
+          <a href="#">learn more...</a>
+  </div>
+  <div>
+      <i class="fa-solid fa-shield"></i>
+      <h2>Infantry</h2>
+      <p>I have better understanding of communication equipments,weapon sytems,platoon and combat skills.</p>
+          <a href="#">learn more...</a>
+  </div>
+<div>
+  <i class="fa-solid fa-code"></i>
+<h2>Web Design and graphics design</h2>
+<p>I develop quality and commendable websites at affordable prices using Javascript,HTML and CSS with high end logos,banners, cards and posters at a reasonable fee.</p>
+    <a href="#">learn more...</a>
+</div>
+  </div>
+
+</div>
+
+</div>
+
+<div id="portfolio">
+<div class="container">
+  <h1 class="sub-title">My Work</h1>
+<div class="work-list">
+  <div class="work">
+    <img src="images/work1.png" alt="">
+    <div class="layer">
+      <h3>Shoe website</h3>
+      <p>The website allows you to view different designs of shoes</p>
+      <a href="https://prudencenaliaka.github.io/shoes/"><i class="fa-solid fa-square-up-right"></i></a>
+    </div>
+  </div>
+  <div class="work">
+    <img src="images/work2.png" alt="">
+    <div class="layer">
+      <h3>Music Website</h3>
+      <p>The website allows you to listen to different types of music i.e gospel,raggae,bongo</p>
+      <a href="https://prudencenaliaka.github.io/machoka/"><i class="fa-solid fa-square-up-right"></i></a>
+    </div>
+  </div>
+  <div class="work">
+    <img src="images/Josh.png" alt="">
+    <div class="layer">
+      <h3>Music group logo</h3>
+      <p>This is a logo for The Diary Of a Psalmist music group</p>
+      <a href="#"><i class="fa-solid fa-square-up-right"></i></a>
+    </div>
+  </div>
+</div>
+<a href="#" class="btn">See More</a>
+</div>
+</div>
+
+<div id="contact">
+<div class="container">
+  <div class="row">
+<div class="contact-left">
+  <h1 class="sub-title"><u>Contact me</u></h1>
+  <a href="mailto:vwakhungila10@gmail.com"><i class="fas-fa-paper-plane"></i> vwakhungila10@gmail.com</a><br>
+  <a href="tel:+254745393496"><i class="fas-fa-phone-square-alt"></i>+254798059225</a>
+  <div class="social-icons">
+   <a href="https://www.facebook.com/wakhoo.snr.5?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+   <a href="https://twitter.com/_Wakhoo_?t=WhHtSdhnuc2wypGFBpqC6A&s=09"><i class="fa-brands fa-square-instagram"></i></a>
+   <a href="https://twitter.com/_Wakhoo_?t=WhHtSdhnuc2wypGFBpqC6A&s=09"><i class="fa-brands fa-twitter"></i></i></a>
+  </div>
+  <a href="images/VictorCV.pdf" download class="btn btn2">Download CV</a>
+</div>
+<div class="contact-right">
+<form name="submit-to-google-sheet">
+<input type="text" name="Name" placeholder="Enter Your Name" required>
+<input type="email" name="Email" placeholder="Enter Your email" required>
+<textarea name="Message" rows="6" placeholder="Write your message"></textarea>
+<button type="submit" class="btn btn2">Submit</button>
+</form>
+<span id="msg"></span>
+</div>
+ </div>
+
+</div>
+<div class="copyright">
+  <p>Copyright @vwakhungila.</p>
+</div>
+</div>
+
+
+
+<script>
+
+  var tablinks = document.getElementsByClassName("tab-links");
+  var tabcontents = document.getElementsByClassName("tab-contents");
+
+  function opentab(tabname){
+    for(tablink of tablinks){
+      tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+      tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab")
+  }
+</script>
+<script>
+  var sidemenu=document.getElementById("sidemenu");
+  function openmenu(){
+    sidemenu.style.right = "0";
+  }
+  function closemenu(){
+    sidemenu.style.right = "-200px";
+  }
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzfb3hv2zbErC22pqtMRl1yXGxVnhQOtXMOE3HVoZcO9ia6sloZm4ypUqd2-MOquxCIjA/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully!"
+        setTimeout(function(){
+          msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</body>
+</html>
